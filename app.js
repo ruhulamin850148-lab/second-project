@@ -234,4 +234,18 @@ console.log(myDate.getMonth());
 console.log(myDate.getSeconds());
 console.log(myDate.getTime());
 
+//  Array selector big storeage //
+var fdName = ["Ruhul","Rajon","Ebrahim","Rifat"];
+console.log(fdName);
+
+var fdName = ["Ruhul","Rajon","Ebrahim","Rifat"];
+console.log(fdName[2]);
+
+var fdName = ["Ruhul","Rajon","Ebrahim","Rifat"];
+fdName[1] = 20;
+console.log(fdName);
+
+var fdName = ["Ruhul","Rajon","Ebrahim","Rifat"];
+fdName[1] = "Prince Ruhul";
+console.log(fdName);
 
