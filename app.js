@@ -259,3 +259,11 @@ var fdName = ["Ruhul","Rajon", "Khan"];
  fdName.pop(215436);
  console.log(fdName);
 
+var fdName = ["ruhul","rajon","shanto"];
+fdName.shift();
+console.log(fdName);
+
+// loop ar babohar //
+for(var sum = 0; sum < 101; sum++){
+console.log(sum);
+}
