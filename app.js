@@ -263,7 +263,18 @@ var fdName = ["ruhul","rajon","shanto"];
 fdName.shift();
 console.log(fdName);
 
-// loop ar babohar //
+//for loop ar babohar //
 for(var sum = 0; sum < 101; sum++){
 console.log(sum);
+}
+//
+var nums = [0,1,2,3,4,5,6,7,8,9];
+for(var i = 0; i<nums.length; i ++){
+  console.log(nums[i]);
+}
+// while loop ar babohar//
+var i = 0;
+while(i<10){
+ console.log(i);
+ i++
 }
