@@ -323,3 +323,16 @@ var NewObj3 = new MyInfo("Ruhul","Bagadia","201505060052","ruhulamin850148@");
 NewObj.ShowMe();
 NewObj2.ShowMe();
 NewObj3.ShowMe();
+
+
+// ternary operator 
+var num = 50;
+var MyCondition = (num < 10 ? "ami tomar theke bore hote parlam na" : "yea ami tomar theke boro hoye parisi");
+console.log(MyCondition);
+
+for(var i = 0; i <=10; i++){
+  if(i ==5){
+    console.log("Break Now");
+  }
+ console.log(i);
+}
