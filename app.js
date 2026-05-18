@@ -278,3 +278,48 @@ while(i<10){
  console.log(i);
  i++
 }
+
+// function ar babohar //
+function Fun(){
+var num1 = 80;
+var num2 = 20;
+console.log(num1 * num2);
+}
+Fun()
+console.log("hello");
+Fun()
+//total way run//
+function Fun(num1,num2){
+  var total = num1 *num2;
+  console.log(total);
+}
+Fun(40,50)
+
+function fun(num1){
+  var total = num1 * 10;
+  return total;
+}
+var a = fun(20);
+var b = fun(30);
+console.log(a%b);
+
+// javascript object //
+
+function MyInfo(YourName,Village,PhoneNo,Email){
+  this.YourName = YourName;
+  this.Village = Village;
+  this.PhoneNo = PhoneNo;
+  this.ShowMe = function(){
+    console.log(this.YourName);
+    console.log(this.Village);
+    console.log(this.PhoneNo);
+    console.log(this.Email);
+    
+  }
+}
+var NewObj = new MyInfo("Ruhul","Bagadia","01721796053");
+var NewObj2 = new MyInfo("Procoder","Bagadia","01721796053");
+var NewObj3 = new MyInfo("Ruhul","Bagadia","201505060052","ruhulamin850148@");
+NewObj.ShowMe();
+NewObj2.ShowMe();
+NewObj3.ShowMe();
