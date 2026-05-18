@@ -249,3 +249,13 @@ var fdName = ["Ruhul","Rajon","Ebrahim","Rifat"];
 fdName[1] = "Prince Ruhul";
 console.log(fdName);
 
+// array push() pop() and shift() unshift()//
+//push //
+var fdName = ["Ruhul","Rajon", "Khan"];
+ fdName.push(215436);
+ console.log(typeof fdName);
+//pop//
+var fdName = ["Ruhul","Rajon", "Khan"];
+ fdName.pop(215436);
+ console.log(fdName);
+
