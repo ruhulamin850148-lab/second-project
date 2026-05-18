@@ -50,9 +50,188 @@ console.log(rochona.toUpperCase());
 var rochonaName = "MY SCHOOL IS ONE OF THE MOST IMPORTANT PLACES IN MY LIFE. THE NAME OF MY SCHOOL IS GREEN VALLEY HIGH SCHOOL. IT IS SITUATED NEAR MY HOUSE. IT IS A BEAUTIFUL AND WELL-KNOWN SCHOOL IN OUR AREA.";
 console.log(rochonaName.toLowerCase());
 
-// split method ar babohar // split র্অথ বাঘ করা//
+// split method ar babohar // split divid do//
 var myFd = "Ruhul Rajon Ebrahim Rifat Faysal";
 console.log(myFd.split("Ruhul"));
 
 var myFriends = "Ruhul Rajon Rahol Basha Khan";
 console.log(myFriends.split("Rahol"));
+
+// indexof() ar babohar //indexof pode nidraron//
+var myFds = "Ruhul Ebrahim Shanto Khan";
+console.log(myFds.indexOf("K"));
+
+var myFds = "Ruhul Ebrahim Shanto Khan";
+console.log(myFds.indexOf("S"));
+
+
+var num1 = 55;
+var num2 = 99;
+var total =  num1+num2;
+console.log(total);
+
+// praseFloat ar work string theke number type convered //
+var num1 = "55";
+var num2 = 99;
+ num1 = parseFloat( typeof num1);
+ console.log(typeof num1);
+
+
+var num1 = 52.251;
+var num2 = 99;
+var total = num1 + num2;
+ num1 = parseInt(  num1);
+ console.log( total);
+
+ var num1 = "50.251";
+ var num2 = 50;
+ num1 = parseFloat(num1);
+ var total = num1 + num2;
+ console.log(total);
+//number type theke string type convared//
+ var num3 = 25;
+ var num4 = 25;
+ num4 = "" + num4;
+ console.log( typeof num4);
+
+//  javascript operators ar babohar //
+var num1 = 50;
+var num2 = 42;
+var total = num1 + num2;
+console.log(total);
+
+var num1 = 50;
+var num2 = 42;
+var total = num1 - num2;
+console.log(total);
+
+var num1 = 50;
+var num2 = 42;
+var total = num1 * num2;
+console.log(total);
+
+var num1 = 50;
+var num2 = 40;
+var total = num1 / num2;
+console.log(total);
+
+
+var num1 = 50;
+var num2 = 40;
+var total = num1 % num2;
+console.log(total);
+
+var num1 = 20;
+var num2 = 10;
+console.log(num1+num2);
+
+// math function ar babohar //
+
+//abs nagitive number theke possitive numbere convered//
+var num1 = -20;
+var sum = Math.abs(num1);
+console.log(sum);
+
+// round  ar babohar //
+var voter = 5.4899;
+var sum = Math.round(voter);
+console.log(sum);
+// ceil ar babohar khasra number ke  cound //
+var voter = 5.4899;
+var sum = Math.ceil(voter);
+console.log(sum);
+
+var voter = 5.1524;
+var sum = Math.ceil(voter);
+console.log(sum);
+// math.random ar babohar //
+var lotary = Math.random();
+console.log(lotary);
+
+var lotary = Math.random() * 100;
+console.log(lotary);
+
+// logical and condition statement //
+
+//if statement ar babohar //
+var a = 2;
+var b = 5;
+
+if(a<b){
+   console.log("computer ar matha thik ase");
+}
+
+var a = 2;
+
+if(a<10){
+   console.log("see you not for mind");
+}
+
+if(10>1){
+  console.log("Hello World");
+}
+//if else statement //
+var a = 2;
+var b = 5;
+if(a>b){
+  console.log("hello world 2");
+}
+else {
+   console.log("a ar man boro");
+}
+
+var a = 5;
+var b = 4;
+if (a<b){
+  console.log("A boro");
+}
+else{
+  console.log("B boro");
+}
+// else ar babohar //
+var a = 5;
+var b = 4;
+if(a>b){
+  console.log("A boro na");
+}
+else if(a<b){
+  console.log("B boro to our");
+}
+else{
+  console.log("they both are same");
+}
+// switch statement used //
+
+var sum = 100;
+switch(sum){
+  case 10:
+      console.log("hello world thiking 10");
+       break;
+   case 5:
+    console.log("now i am in some 5");
+    break;
+    case 1:
+      console.log("the lower case 1");
+      break;
+      default:
+        console.log("ami tomake khaje palem na");
+}
+
+// Date object ar babohar // 
+
+var myDate = new Date();
+console.log(myDate.toTimeString());
+console.log(myDate.toDateString());
+console.log(myDate.toLocaleTimeString());
+console.log(myDate.toString());
+console.log(myDate.getDate());
+console.log(myDate.getDay());
+console.log(myDate.getFullYear());
+console.log(myDate.getHours());
+console.log(myDate.getMilliseconds());
+console.log(myDate.getMinutes());
+console.log(myDate.getMonth());
+console.log(myDate.getSeconds());
+console.log(myDate.getTime());
+
+
